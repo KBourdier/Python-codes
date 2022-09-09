@@ -1,0 +1,12 @@
+box = [] 
+box.append("a fat pan")
+
+# Your code here!
+box.append("poisonous potato")
+box.append("a metal toothbrush")
+box.append("a knife!")
+
+list_length = len(box) # Set this to the length of suitcase
+
+print "There are %d items in the box." % (list_length)
+print box
