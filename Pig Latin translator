@@ -1,0 +1,21 @@
+print 'Welcome to the Pig Latin Translator!'
+
+# Start coding here!
+original = raw_input("Enter a word: ")
+if len(empty_string) > 0 and original.isalpha():
+  print original
+else:
+  print "Empty, you dumb supine protoplasmic invertebrate jelly!"
+
+
+#This is the final finished code that completes the pyglatin maker
+pyg = 'ay'
+new_word = word[1:] + first + pyg
+original = raw_input('Enter a word:')
+if len(original) > 0 and original.isalpha():
+  word = original.lower()
+  first = word[0]
+  print original
+  print new_word
+else:
+  print 'empty'
