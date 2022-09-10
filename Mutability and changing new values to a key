@@ -1,0 +1,17 @@
+# key - animal_name : value - location 
+zoo_animals = {
+  'Unicorn' : 'Rainbow road',
+  'Sloth' : 'Mosquito Heaven',
+  'Bengal Tiger' : 'Jungle Book',
+  'Atlantic Puffin' : 'Arcticuno Land',
+  'Rockhopper Penguin' : 'Arcticuno Land'
+}
+
+# Removing the 'Unicorn' entry. (Unicorns are overrated.)
+del zoo_animals['Unicorn']
+
+del zoo_animals['Sloth']
+del zoo_animals['Bengal Tiger']
+zoo_animals['Rockhopper Penguin'] = 'Trap House'
+
+print zoo_animals
